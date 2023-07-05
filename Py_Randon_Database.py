@@ -4,7 +4,7 @@ import random
 #Connect to the databatestingse or create a new one
 conn = sqlite3.connect('Testing7.db') #Change the name of the database to what is desired
 
-#Create a cursor object
+#Create a cursor object. Allows you to execute SQLite.
 cursor = conn.cursor()
 
 #Creates a table
